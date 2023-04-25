@@ -19,4 +19,4 @@ RECAPTCHA_SECRET = env('RECAPTCHA_SECRET')
 IP_MASK = env('CAPTCHA_ALLOWED_IP_MASK', default=r'172.\d{1,3}.\d{1,3}.\d{1,3}')
 CAPTCHA_ALLOWED_IP_MASK = fr"{IP_MASK}"
 
-DISALLOW_COUNTRY = ('', 'US', 'BS', 'BW', 'KH', 'KP', 'ET', 'GH', 'IR', 'RS', 'LK', 'SY', 'TT', 'TN', 'YE')
+DISALLOW_COUNTRY = ('', 'US', 'BS', 'BW', 'KH', 'KP', 'ET', 'GH', 'IR', 'RS', 'LK', 'SY', 'TT', 'YE')
