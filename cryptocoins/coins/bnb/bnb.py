@@ -88,6 +88,7 @@ bnb_manager = BnbManager(client=w3)
 class BnbHandler(Web3CommonHandler):
     CURRENCY = BNB_CURRENCY
     COIN_MANAGER = bnb_manager
+    GAS_CURRENCY = settings.ETH_TX_GAS
     TOKEN_CURRENCIES = bnb_manager.registered_token_currencies
     TOKEN_CONTRACT_ADDRESSES = bnb_manager.registered_token_addresses
     TRANSACTION_CLASS = BnbTransaction
